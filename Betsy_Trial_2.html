@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Webpage with Banner, Text, and Video</title>
+    <style>
+        /* Basic styling for the page */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Styling for the banner */
+        .banner {
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        /* Container for the two-column layout */
+        .content {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            padding: 20px;
+        }
+
+        /* Styling for each column */
+        .column {
+            flex: 1;
+            padding: 20px;
+            box-sizing: border-box;
+            max-width: 50%;
+        }
+
+        /* Video styling */
+        .video {
+            max-width: 100%;
+            height: auto;
+        }
+
+        /* Text area styling */
+        .text {
+            font-size: 18px;
+            line-height: 1.6;
+        }
+
+        /* Make the layout responsive */
+        @media (max-width: 768px) {
+            .column {
+                max-width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Banner section -->
+    <div class="banner">
+        <h1>Welcome to My Webpage</h1>
+    </div>
+
+    <!-- Two-column content section -->
+    <div class="content">
+        <!-- Text column -->
+        <div class="column text">
+            <h2>About This Video</h2>
+            <p>
+                This is where you can provide some context or description related to the video on the right. You can discuss
+                the content, explain what viewers will learn, and share any relevant background information.
+            </p>
+            <p>
+                Feel free to replace this placeholder text with your actual content. This layout is flexible and adjusts well
+                for different screen sizes, making it easy for users to read the text and watch the video on any device.
+            </p>
+        </div>
+
+        <!-- Video column -->
+        <div class="column">
+        <iframe width="640" height="360" src="https://www.youtube.com/embed/uMeFaDAUE9w" 
+                frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                allowfullscreen id="video-iframe">
+        </iframe>
+
+            </video>
+        </div>
+    </div>
+
+
+    <!-- Two-column content section -->
+    <div class="content">
+        <!-- 1st-->
+        <div class="column text">
+            <h2>Copy the Code Shown Below</h2>
+            <p>
+                This is where you can provide some context or description related to the video on the right. You can discuss
+                the content, explain what viewers will learn, and share any relevant background information.
+            </p>
+            <p>
+<font color="blue">
+<p></p>
+		import matplotlib.pyplot as plt
+
+
+		# x axis values <p> </p>
+
+		x = [1,2,3]<p> </p>
+
+		# corresponding y axis values<p> </p>
+
+		y = [2,4,1]<p> </p>
+
+
+		plt.figure() # creates a new figure to graph on<p> </p>
+
+		plt.plot(x, y) # graphs x and y against each other on the new figure<p> </p>
+
+		plt.show() #displays the figure<p> </p>
+</font>
+
+              <h2>Click Run</h2>
+            </p>
+        </div>
+
+        <!-- 2nd Column -->
+        <div class="column">
+    <iframe
+  src="https://jupyterlite.github.io/demo/repl/index.html?kernel=python&toolbar=1"
+  width="100%"
+  height="500px"
+>
+
+        <iframe width="640" height="360" src="https://www.youtube.com/embed/uMeFaDAUE9w" 
+                frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                allowfullscreen id="video-iframe">
+        </iframe>
+
+</iframe>
+
+            </video>
+        </div>
+    </div>
+
+
+<!-- Using <embed> -->
+<embed src="2.2 Libraries.pdf" width="600" height="500" type="application/pdf">
+
+</body>
+</html>
