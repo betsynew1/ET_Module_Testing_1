@@ -256,5 +256,36 @@ color:black;mso-font-kerning:0pt;mso-ligatures:none'><o:p></o:p></span></p>
 <!-- Using <embed> -->
 <embed src="2.2 Libraries.pdf" width="600" height="500" type="application/pdf">
 
+    <title>Quiz Question</title>
+</head>
+<body>
+    <h2>Quiz Question</h2>
+    
+    <form id="quizForm">
+        <label for="question">What is the capital of France?</label><br><br>
+        <input type="text" id="answer" name="answer" placeholder="Type your answer"><br><br>
+        <input type="submit" value="Submit">
+    </form>
+
+    <p id="result"></p>
+
+    <script>
+        document.getElementById("quizForm").addEventListener("submit", function(event) {
+            event.preventDefault();
+            const answer = document.getElementById("answer").value.toLowerCase();
+            const result = document.getElementById("result");
+
+            if (answer === "paris") {
+                result.textContent = "Correct!";
+                result.style.color = "green";
+            } else {
+                result.textContent = "Incorrect. Try again!";
+                result.style.color = "red";
+            }
+        });
+    </script>
+</body>
+</html>
+    
 </body>
 </html>
