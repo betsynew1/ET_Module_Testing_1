@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <title>Banner with Image</title>
+    <style>
+
+        /* CSS for the image */
+        .banner img {
+            max-width: 100%; /* Make sure the image scales responsively */
+            height: auto;
+            display: block;
+            margin: 0 auto; /* Center the image horizontally */
+        }
+    <title>Grid Layout</title>
+    <style>
+        .container {
+            display: grid;
+            grid-template-columns: 200px 1fr; /* Left banner width and rest for content */
+        }
+        .left-banner {
+            background-color: #f0f0f0;
+        }
+        .content {
+            padding-left: 40px; /* Optional padding */
+        }
+    </style>
+</head>
+<body>
+
+
+    <style>
+        /* Styling for the left-side banner */
+        #leftBanner {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 120px;
+            height: 100%;
+            background-color: #333;
+            padding: 20px;
+            color: white;
+            font-family: Arial, sans-serif;
+        }
+
+        /* Styling for the dropdown */
+        #rollupSelection {
+            width: 100%;
+            padding: 10px;
+            margin-top: 20px;
+            background-color: #444;
+            color: white;
+            border: none;
+            font-size: 16px;
+        }
+
+        /* General page styling */
+        body {
+            margin-left: 220px; /* Add margin so content isn't hidden behind the banner */
+            font-family: Arial, sans-serif;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div id="leftBanner">
+        <h2>Menu</h2>
+        <p>Select an option:</p>
+        <select id="rollupSelection">
+            <option value="option1">Module 1</option>
+            <option value="option2">Module 2</option>
+            <option value="option3">Module 3</option>
+        </select>
+    </div>
+
+
+
+
+</div>
+
+
+   <!-- Two-column content section -->
+    <div class="content">
+        <!-- Text column -->
+        <div class="column text">
+            <h2>Section 2.1 Real-World Example - Erik Einset</h2>
+            <p>
+                In this video you will see some amazing engineering applications and how data can be displayed to help drive engineering decisions.
+            </p>
+
+        </div>
+
+
+
+
+     <!-- Two-column content section -->
+    <div class="content">
+        <!-- Text column -->
+        <div class="column text">
+            <h2>Module 2 - Real World Example </h2>
+            <p>
+                In this video you will learn Scientific Computing is used in Real World problems.  You'll see various plots and how the data helps inform engineering decisions.
+            </p>
+        </div>
+
+        <!-- Video column -->
+        <div class="column">
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/jrjj29ZjIBE?si=8_a5oN7TFSG9Uidv" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            
+            </video>
+        </div>
+    </div>
+
+
+    <!-- Two-column content section -->
+    <div class="content">
+        <!-- 1st-->
+        <div class="column text">
+            <h2>Copy the Code Shown Below</h2>
+
+<p></p>        
+ <p class=MsoNormal style='margin-bottom:0in;line-height:14.25pt;background:
+#F7F7F7'><span style='font-size:10.5pt;font-family:"Courier New";mso-fareast-font-family:
+"Times New Roman";color:#AF00DB;mso-font-kerning:0pt;mso-ligatures:none'>import</span><span
+style='font-size:10.5pt;font-family:"Courier New";mso-fareast-font-family:"Times New Roman";
+color:black;mso-font-kerning:0pt;mso-ligatures:none'> <span class=SpellE>matplotlib.pyplot</span>
+</span><span style='font-size:10.5pt;font-family:"Courier New";mso-fareast-font-family:
+"Times New Roman";color:#AF00DB;mso-font-kerning:0pt;mso-ligatures:none'>as</span><span
+style='font-size:10.5pt;font-family:"Courier New";mso-fareast-font-family:"Times New Roman";
+color:black;mso-font-kerning:0pt;mso-ligatures:none'> <span class=SpellE>plt</span><o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-bottom:0in;line-height:14.25pt;background:
+#F7F7F7'><span style='font-size:10.5pt;font-family:"Courier New";mso-fareast-font-family:
+"Times New Roman";color:black;mso-font-kerning:0pt;mso-ligatures:none'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='margin-bottom:0in;line-height:14.25pt;background:
+#F7F7F7'><span style='font-size:10.5pt;font-family:"Courier New";mso-fareast-font-family:
+"Times New Roman";color:green;mso-font-kerning:0pt;mso-ligatures:none'># x axis
+values</span><span style='font-size:10.5pt;font-family:"Courier New";
+mso-fareast-font-family:"Times New Roman";color:black;mso-font-kerning:0pt;
+mso-ligatures:none'><o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-bottom:0in;line-height:14.25pt;background:
+#F7F7F7'><span style='font-size:10.5pt;font-family:"Courier New";mso-fareast-font-family:
+"Times New Roman";color:black;mso-font-kerning:0pt;mso-ligatures:none'>x = [</span><span
+style='font-size:10.5pt;font-family:"Courier New";mso-fareast-font-family:"Times New Roman";
+color:#116644;mso-font-kerning:0pt;mso-ligatures:none'>1</span><span
+style='font-size:10.5pt;font-family:"Courier New";mso-fareast-font-family:"Times New Roman";
+color:black;mso-font-kerning:0pt;mso-ligatures:none'>,</span><span
+style='font-size:10.5pt;font-family:"Courier New";mso-fareast-font-family:"Times New Roman";
+color:#116644;mso-font-kerning:0pt;mso-ligatures:none'>2</span><span
+style='font-size:10.5pt;font-family:"Courier New";mso-fareast-font-family:"Times New Roman";
+color:black;mso-font-kerning:0pt;mso-ligatures:none'>,</span><span
+style='font-size:10.5pt;font-family:"Courier New";mso-fareast-font-family:"Times New Roman";
+color:#116644;mso-font-kerning:0pt;mso-ligatures:none'>3</span><span
+style='font-size:10.5pt;font-family:"Courier New";mso-fareast-font-family:"Times New Roman";
+color:black;mso-font-kerning:0pt;mso-ligatures:none'>]<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-bottom:0in;line-height:14.25pt;background:
+#F7F7F7'><span style='font-size:10.5pt;font-family:"Courier New";mso-fareast-font-family:
+"Times New Roman";color:green;mso-font-kerning:0pt;mso-ligatures:none'>#
+corresponding y axis values</span><span style='font-size:10.5pt;font-family:
+"Courier New";mso-fareast-font-family:"Times New Roman";color:black;mso-font-kerning:
+0pt;mso-ligatures:none'><o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-bottom:0in;line-height:14.25pt;background:
+#F7F7F7'><span style='font-size:10.5pt;font-family:"Courier New";mso-fareast-font-family:
+"Times New Roman";color:black;mso-font-kerning:0pt;mso-ligatures:none'>y = [</span><span
+style='font-size:10.5pt;font-family:"Courier New";mso-fareast-font-family:"Times New Roman";
+color:#116644;mso-font-kerning:0pt;mso-ligatures:none'>2</span><span
+style='font-size:10.5pt;font-family:"Courier New";mso-fareast-font-family:"Times New Roman";
+color:black;mso-font-kerning:0pt;mso-ligatures:none'>,</span><span
+style='font-size:10.5pt;font-family:"Courier New";mso-fareast-font-family:"Times New Roman";
+color:#116644;mso-font-kerning:0pt;mso-ligatures:none'>4</span><span
+style='font-size:10.5pt;font-family:"Courier New";mso-fareast-font-family:"Times New Roman";
+color:black;mso-font-kerning:0pt;mso-ligatures:none'>,</span><span
+style='font-size:10.5pt;font-family:"Courier New";mso-fareast-font-family:"Times New Roman";
+color:#116644;mso-font-kerning:0pt;mso-ligatures:none'>1</span><span
+style='font-size:10.5pt;font-family:"Courier New";mso-fareast-font-family:"Times New Roman";
+color:black;mso-font-kerning:0pt;mso-ligatures:none'>]<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-bottom:0in;line-height:14.25pt;background:
+#F7F7F7'><span style='font-size:10.5pt;font-family:"Courier New";mso-fareast-font-family:
+"Times New Roman";color:black;mso-font-kerning:0pt;mso-ligatures:none'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='margin-bottom:0in;line-height:14.25pt;background:
+#F7F7F7'><span class=SpellE><span style='font-size:10.5pt;font-family:"Courier New";
+mso-fareast-font-family:"Times New Roman";color:black;mso-font-kerning:0pt;
+mso-ligatures:none'>plt.figure</span></span><span style='font-size:10.5pt;
+font-family:"Courier New";mso-fareast-font-family:"Times New Roman";color:black;
+mso-font-kerning:0pt;mso-ligatures:none'>() </span><span style='font-size:10.5pt;
+font-family:"Courier New";mso-fareast-font-family:"Times New Roman";color:green;
+mso-font-kerning:0pt;mso-ligatures:none'># creates a new figure to graph on</span><span
+style='font-size:10.5pt;font-family:"Courier New";mso-fareast-font-family:"Times New Roman";
+color:black;mso-font-kerning:0pt;mso-ligatures:none'><o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-bottom:0in;line-height:14.25pt;background:
+#F7F7F7'><span class=SpellE><span style='font-size:10.5pt;font-family:"Courier New";
+mso-fareast-font-family:"Times New Roman";color:black;mso-font-kerning:0pt;
+mso-ligatures:none'>plt.plot</span></span><span style='font-size:10.5pt;
+font-family:"Courier New";mso-fareast-font-family:"Times New Roman";color:black;
+mso-font-kerning:0pt;mso-ligatures:none'>(x, y) </span><span style='font-size:
+10.5pt;font-family:"Courier New";mso-fareast-font-family:"Times New Roman";
+color:green;mso-font-kerning:0pt;mso-ligatures:none'># graphs x and y against
+each other on the new figure</span><span style='font-size:10.5pt;font-family:
+"Courier New";mso-fareast-font-family:"Times New Roman";color:black;mso-font-kerning:
+0pt;mso-ligatures:none'><o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-bottom:0in;line-height:14.25pt;background:
+#F7F7F7'><span class=SpellE><span style='font-size:10.5pt;font-family:"Courier New";
+mso-fareast-font-family:"Times New Roman";color:black;mso-font-kerning:0pt;
+mso-ligatures:none'>plt.show</span></span><span style='font-size:10.5pt;
+font-family:"Courier New";mso-fareast-font-family:"Times New Roman";color:black;
+mso-font-kerning:0pt;mso-ligatures:none'>() </span><span style='font-size:10.5pt;
+font-family:"Courier New";mso-fareast-font-family:"Times New Roman";color:green;
+mso-font-kerning:0pt;mso-ligatures:none'>#displays the figure</span><span
+style='font-size:10.5pt;font-family:"Courier New";mso-fareast-font-family:"Times New Roman";
+color:black;mso-font-kerning:0pt;mso-ligatures:none'><o:p></o:p></span></p>
+
+<p class=MsoNormal><o:p>&nbsp;</o:p></p>           
+            <h3>Click Run</h3>
+            </p>
+        </div>
+
+        <!-- 2nd Column -->
+        <div class="column">
+    <iframe
+  src="https://jupyterlite.github.io/demo/repl/index.html?kernel=python&toolbar=1"
+  width="100%"
+  height="500px"
+>
+
+        <iframe width="640" height="360" src="https://youtu.be/jrjj29ZjIBE?si=dJdeTITdbqGiPPVS" 
+                frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                allowfullscreen id="video-iframe">
+        </iframe>
+
+</iframe>
+
+            </video>
+        </div>
+    </div>
+
+
+<!-- Using <embed> -->
+<embed src="2.2 Libraries.pdf" width="600" height="500" type="application/pdf">
+
+    <title>Quiz Question</title>
+</head>
+<body>
+    <h2>Quiz Question</h2>
+    
+    <form id="quizForm">
+        <label for="question">What is the name of the library to import for plotting (NumPy or Matplotlib)?<p></p>  Type 1 for Numpy; Type 2 for Matplotlib. </p></label><br><br>
+        
+        <input type="text" id="answer" name="answer" placeholder="Type 1 for Numpy or Type 2 for Matplotlib"><br><br>
+        <input type="submit" value="Submit">
+    </form>
+
+    <p id="result"></p>
+
+    <script>
+        document.getElementById("quizForm").addEventListener("submit", function(event) {
+            event.preventDefault();
+            const answer = document.getElementById("answer").value.toLowerCase();
+            const result = document.getElementById("result");
+
+            if (answer === "2") {
+                result.textContent = "Correct!";
+                result.style.color = "green";
+            } else {
+                result.textContent = "Incorrect. Try again!";
+                result.style.color = "red";
+            }
+        });
+    </script>
+</body>
+</html>
